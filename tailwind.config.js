@@ -6,6 +6,7 @@ module.exports = {
         manrope: ["Manrope", "sans-serif"],
       },
       fontSize: {
+        13: "0.8125rem",
         15: "0.9375rem",
       },
       colors: {
