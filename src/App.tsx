@@ -11,17 +11,18 @@ function App() {
         alt=""
       />
 
-      <div className="relative text-center py-9 mb-8">
+      <div className="relative text-center py-9 mb-8 md:mb-12 md:py-16">
         <img
           className="absolute top-0 left-1/2 -translate-x-1/2 -z-40"
           src={patternCircles}
           alt=""
         />
-        <h1 className="text-xl text-dkDesaturatedBlue font-extrabold mb-2">
+        <h1 className="text-xl md:text-[1.75rem] text-dkDesaturatedBlue font-extrabold mb-2 md:mb-3">
           Simple, traffic-based pricing
         </h1>
         <p className="text-13">
-          Sign-up for our 30-day trail. <br /> No credit card required.
+          Sign-up for our 30-day trail. <br className="md:hidden" /> No credit
+          card required.
         </p>
       </div>
 
