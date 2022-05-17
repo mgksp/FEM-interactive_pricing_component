@@ -6,19 +6,18 @@
   -webkit-appearance: none;
   appearance: none;
   width: 100%;
+  z-index: 99;
   background-color: transparent;
 }
 
 .slider::-webkit-slider-runnable-track {
   border-radius: 99rem;
   height: 0.5rem;
-  background-color: hsl(224, 65%, 95%);
 }
 
 .slider::-moz-range-track {
   border-radius: 99rem;
   height: 0.5rem;
-  background-color: hsl(224, 65%, 95%);
 }
 
 .slider::-webkit-slider-thumb {

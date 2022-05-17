@@ -9,6 +9,9 @@ module.exports = {
         13: "0.8125rem",
         15: "0.9375rem",
       },
+      borderWidth: {
+        1: "1px",
+      },
       colors: {
         softCyan: "hsl(174, 77%, 80%)",
         strongCyan: "hsl(174, 86%, 45%)",
