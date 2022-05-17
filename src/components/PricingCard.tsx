@@ -62,7 +62,7 @@ export default function PricingCard() {
           <p className="">Monthly Billing</p>
           <label
             htmlFor="tf-toggle"
-            className="relative w-11 h-6 rounded-full bg-ltGrayishBlue2"
+            className="relative w-11 h-6 rounded-full bg-ltGrayishBlue2 hover:bg-softCyan cursor-pointer"
           >
             <input
               className="invisible"
@@ -88,7 +88,7 @@ export default function PricingCard() {
         </div>
       </div>
 
-      <div className="py-6 px-12 flex flex-col items-center gap-6 md:flex-row md:justify-between w-full md:py-8">
+      <div className="py-6 px-12 text-xs flex flex-col items-center gap-6 md:flex-row md:justify-between w-full md:py-8">
         <div className="flex flex-col items-center md:items-start gap-3">
           <div className="flex items-center gap-2">
             <img src={iconCheck} alt="" />
@@ -103,7 +103,7 @@ export default function PricingCard() {
             <p className="">Email reports</p>
           </div>
         </div>
-        <button className="bg-dkDesaturatedBlue text-paleBlue py-3 px-10 rounded-full">
+        <button className="bg-dkDesaturatedBlue text-paleBlue py-3 px-10 rounded-full cursor-pointer hover:text-white">
           Start my trial
         </button>
       </div>

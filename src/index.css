@@ -32,6 +32,9 @@
   background-color: hsl(174, 86%, 45%);
   cursor: pointer;
 }
+.slider::-webkit-slider-thumb:active {
+  cursor: grabbing;
+}
 
 .slider::-moz-range-thumb {
   height: 2.5rem;
@@ -42,4 +45,7 @@
   background-repeat: no-repeat;
   background-color: hsl(174, 86%, 45%);
   cursor: pointer;
+}
+.slider::-moz-range-thumb:active {
+  cursor: grabbing;
 }
