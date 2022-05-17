@@ -40,6 +40,7 @@ export default function PricingCard() {
             ></div>
             <div className="absolute top-1/2 -translate-y-1/2 left-0 z-0 bg-ltGrayishBlue1 rounded-full h-[0.5rem] w-full"></div>
             <input
+              aria-label="Views Range"
               className="slider"
               min={50}
               max={150}
